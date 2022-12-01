@@ -56,10 +56,16 @@ body {
     font-family: 'Fugaz One', cursive;
 }
 
+.nav-container {
+    width: 100%;
+    padding: 0;
+}
+
 .nav-link-container {
     gap: 4rem;
     display: flex;
     font-size: 1.25rem;
+    padding-left: 7rem;
 }
 
 .nav-logo {
@@ -67,37 +73,26 @@ body {
     height: auto;
 }
 
-/* .xxl-title-bar {
+.title-bar {
     background-color: white;
     font-size: 3.125rem;
-    width: 81.3rem;
     height: auto;
-} */
-
-.xl-title-bar {
-    background-color: white;
-    font-size: 3.125rem;
-    width: 2.5rem;
-    height: auto;
+    margin: 0rem 8.7rem;
 }
 
-.lg-title-bar {
-    background-color: white;
-    font-size: 3.125rem;
-    width: 46.7rem;
-    height: auto;
-}
-
-.md-title-bar {
-    background-color: white;
-    font-size: 3.125rem;
-    width: 36.7rem;
-    height: auto;
+.title-bar-row {
+    width: 100%;
+    margin: 0;
 }
 
 .footer-logo {
     width: auto;
     max-height: 1.975rem;
+    margin-left: 6rem;
+}
+
+.footer-items {
+    width: 80%;
 }
 
 hr {
@@ -109,7 +104,6 @@ hr {
 /* END global selectors */
 
 /* BEGIN Pedro's CSS */
-
 
 /* BEGIN menu CSS */
 .menu-card {
@@ -134,18 +128,42 @@ hr {
     border-radius: 0px;
 }
 
+.card-title {
+    margin-left: .7rem;
+}
 
+.tablet-card {
+    min-width: 26rem;
+}
+
+/* .card-text {
+    margin-left: .7rem;
+} */
 /* END menu CSS */
 
 /* BEGIN media queries */
-@media (min-width: 1440px) {
-    .xxl-title-bar {
-        background-color: white;
-        font-size: 3.125rem;
-        width: 81.3rem;
-        height: auto;
+@media (max-width: 1024px) {
+    .nav-container {
+        max-width: 15rem;
+    }
+
+    .nav-link-container {
+        font-size: medium;
+        gap: 2rem;
+        margin-left: 9rem;
+    }
+
+    .footer-items {
+        width: 74%;
     }
 }
+
+@media (max-width: 768px) {
+    .menu-card-container {
+        display: none;
+    }
+}
+
 /* END media queries */
 
 /* END Pedro's CSS */
