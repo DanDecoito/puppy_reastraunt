@@ -1,35 +1,599 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puppy Restaurant | Menu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-  
-  
-  <body>
-    <h1>Hello, world!</h1>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+
+<body>
+  <!-- START navbar -->
+  <div class="container nav-container">
+    <div class="row my-3 brown-txt-color">
+      <div class="col-4 d-flex justify-content-end">
+        <div class="nav-logo-container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="muzzles logo"
+              class="nav-logo">
+          </a>
+        </div>
+      </div>
+      <div class="col-8 d-flex justify-content-center">
+        <div class="nav-link-container text-center italic-font fugaz-font pt-5">
+          <a href="../pages/about.html" class="nav-link">
+            About
+          </a>
+          <a href="../pages/menu.html" class="nav-link">
+            Menu
+          </a>
+          <a href="../pages/catering.html" class="nav-link">
+            Catering
+          </a>
+          <a href="../pages/photos.html" class="nav-link">
+            Photos
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END navbar -->
+  <div class="container d-flex justify-content-center flex-column m-0">
+    <!-- START title bar -->
+    <div class="row title-bar-row">
+      <div class="col title-bar text-center brown-txt-color fugaz-font">
+        <h1 class="pt-2">Our menu</h1>
+      </div>
+    </div>
+    <!-- END title bar -->
+    <!-- BEGIN menu cards  -->
+    <div class="row row-cols-1 row-cols-md-2 g-4 menu-card-container pt-5 brown-txt-color ">
+      <div class="col d-flex justify-content-center">
+        <div class="card menu-card">
+          <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menubeef.jpg" class="card-img-top menu-img"
+            alt="...">
+          <div class="card-body">
+            <h2 class="card-title fugaz-font mb-0">Sandwiches</h2>
+            <p class="card-title regular-font pb-4">
+              All sandwiches come with an side of crispy fries
+            </p>
+            <!-- BEGIN Sandwich menu item divs -->
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Sizzlin Steak Sandwich</h5>
+                <p class="card-text regular-font pb-0 mb-0">Open faced steak sandwich with grilled belle peppers and
+                  fried
+                  onions.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$15.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Tenderloin Sliders</h5>
+                <p class="card-text regular-font pb-0 mb-0">Three beef tenderloin sliders with horseradish cream and
+                  blackberry bbq.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$13.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Classic Chicken Panini</h5>
+                <p class="card-text regular-font pb-0 mb-0">Grilled chicken with Monterey jack, romaine lettuce,
+                  tomato,
+                  and cilantro.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$10.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Smoked Turkey Club</h5>
+                <p class="card-text regular-font pb-0 mb-0">Smoked deli turkey, maple bacon, cranberry aioli, lettuce
+                  and
+                  tomatoes.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$8.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Tuna Sandwich</h5>
+                <p class="card-text regular-font pb-0 mb-0">Tuna salad with sprouts, sliced tomatoes and cilantro lime
+                  mayo on toast.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$6.99</h5>
+              </div>
+            </div>
+            <hr class="m-0 mb-4">
+            <!-- END Sandwich menu item divs -->
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="card menu-card">
+          <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menuseafood.jpg" class="card-img-top menu-img"
+            alt="...">
+          <div class="card-body">
+            <h2 class="card-title fugaz-font mb-0">Seafood</h2>
+            <p class="card-title regular-font pb-4">
+              All seafood comes with a side of rice pilaf and grilled vegetables
+            </p>
+            <!-- BEGIN Seafood menu item divs -->
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Honey Shrimp Skewers</h5>
+                <p class="card-text regular-font pb-0 mb-0">Ten honey glazed shrimps grilled with sesame seeds and
+                  rosemary.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$15.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Grilled Salmon</h5>
+                <p class="card-text regular-font pb-0 mb-0">Salmon grilled in a lime butter sauce.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$13.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Grilled Tilapia</h5>
+                <p class="card-text regular-font pb-0 mb-0">A whole grilled tilapia cooked with smoked paprika.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$10.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Parmesan Fish Sticks</h5>
+                <p class="card-text regular-font pb-0 mb-0">Sliced salmon in parmesan breading served with lemon dill
+                  tartar sauce.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$8.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <!-- END Seafood menu item divs -->
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="card menu-card">
+          <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menumeat.jpg" class="card-img-top menu-img"
+            alt="...">
+          <div class="card-body">
+            <h2 class="card-title fugaz-font mb-0">On the grill</h2>
+            <p class="card-title regular-font pb-4">
+              Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.
+            </p>
+            <!-- BEGIN On the grill item divs -->
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Baby Back - Full Rack</h5>
+                <p class="card-text regular-font pb-0 mb-0">A full rack of pork babyback ribs grilled and glazed with
+                  blackberry bbq.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$19.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Baby Back - Half Rack</h5>
+                <p class="card-text regular-font pb-0 mb-0">A half rack of pork babyback ribs grilled and glazed with
+                  blackberry bbq.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$13.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Boneless Ribeye</h5>
+                <p class="card-text regular-font pb-0 mb-0">A three inch thick boneless ribeye grilled in a rosemary
+                  rub
+                  and butter.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$25.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Smoked Turkey Club</h5>
+                <p class="card-text regular-font pb-0 mb-0">Smoked deli turkey, maple bacon, cranberry aioli, lettuce
+                  and
+                  tomatoes.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$8.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Tuna Sandwich</h5>
+                <p class="card-text regular-font pb-0 mb-0">Tuna salad with sprouts, sliced tomatoes and cilantro lime
+                  mayo on toast.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$6.99</h5>
+              </div>
+            </div>
+            <hr class="m-0 mb-4">
+            <!-- END On the grill item divs -->
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-around">
+        <div class="card menu-card">
+          <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menudesserts.jpg" class="card-img-top menu-img"
+            alt="...">
+          <div class="card-body">
+            <h2 class="card-title fugaz-font mb-0">Desserts</h2>
+            <p class="card-title regular-font pb-4">
+              A shot of esspresso can be added to any dessert for an additional $2.
+            </p>
+            <!-- BEGIN Desserts item divs -->
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Double Walnut Brownies</h5>
+                <p class="card-text regular-font pb-0 mb-0">Two brownies with a walnut crust, ice cream and chocolate
+                  sauce.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$8.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Cheesecake with Chocolate Sauce</h5>
+                <p class="card-text regular-font pb-0 mb-0">Cheesecake with ice cream, chocolate shavings and
+                  chocolate
+                  sauce.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$7.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Tripple Chocolate Brownie</h5>
+                <p class="card-text regular-font pb-0 mb-0">A tripple chocolate brownie served with vanilla ice cream
+                  and
+                  walnuts.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$6.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">House Made Shaved Gelato and Cookies</h5>
+                <p class="card-text regular-font pb-0 mb-0">Your choice of shaved gelato with whole cookies. Options
+                  change daily.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$5.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between mt-4">
+              <div>
+                <h5 class="light-font mb-0">Grilled Peaches and Ice Cream</h5>
+                <p class="card-text regular-font pb-0 mb-0">Grilled peaches in cinnamon and brown sugar glaze with ice
+                  cream.</p>
+              </div>
+              <div>
+                <h5 class="light-font ">$4.99</h5>
+              </div>
+            </div>
+            <hr class="m-0 mb-4">
+            <!-- END Desserts item divs -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END menu cards -->
+    <!-- BEGIN tablet menu cards -->
+    <div id="carouselExampleCaptions" class="carousel slide brown-txt-color d-lg-none" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- BEGIN sandwich card -->
+          <div class="card tablet-card" style="width: 18rem;">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menubeef.jpg" class="card-img-top"
+              alt="beef sandwich">
+            <div class="card-body">
+              <h5 class="fugaz-font mb-0">Sandwiches</h5>
+              <p class="card-text mt-0">All sandwiches come with an side of crispy fries</p>
+            </div>
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Sizzlin Steak Sandwich</h5>
+                <p class="card-text light-font pb-0 mb-0">Open faced steak sandwich with grilled belle peppers and
+                  fried
+                  onions.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$15.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Tenderloin Sliders</h5>
+                <p class="card-text light-font pb-0 mb-0">Three beef tenderloin sliders with horseradish cream and
+                  blackberry bbq.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$13.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Classic Chicken Panini</h5>
+                <p class="card-text light-font pb-0 mb-0">Grilled chicken with Monterey jack, romaine lettuce, tomato,
+                  and cilantro.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$10.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Smoked Turkey Club</h5>
+                <p class="card-text light-font pb-0 mb-0">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and
+                  tomatoes.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$8.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Tuna Sandwich</h5>
+                <p class="card-text light-font pb-0 mb-0">Tuna salad with sprouts, sliced tomatoes and cilantro lime
+                  mayo on toast.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$6.99</h5>
+              </div>
+            </div>
+          </div>
+          <!-- END sandwich card -->
+        </div>
+        <div class="carousel-item">
+          <!-- BEGIN seafood card -->
+          <div class="card tablet-card" style="width: 18rem;">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menuseafood.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+          <!-- END seafood card -->
+        </div>
+        <div class="carousel-item">
+          <!-- BEGIN on the grill card -->
+          <div class="card tablet-card" style="width: 18rem;">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menumeat.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+          <!-- END on the grill card -->
+        </div>
+        <div class="carousel-item">
+          <!-- BEGIN desserts card -->
+          <div class="card tablet-card" style="width: 18rem;">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menudesserts.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+          <!-- END desserts card -->
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container d-lg-none d-xl-none">
+      <div class="row mt-3 brown-txt-color regular-font">
+        <div class="col-12 d-flex justify-content-center">
+          <!-- BEGIN sandwiches card -->
+          <div class="card tablet-card" style="width: 18rem;">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menubeef.jpg" class="card-img-top"
+              alt="beef sandwich">
+            <div class="card-body">
+              <h5 class="fugaz-font mb-0">Sandwiches</h5>
+              <p class="card-text mt-0">All sandwiches come with an side of crispy fries</p>
+            </div>
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Sizzlin Steak Sandwich</h5>
+                <p class="card-text light-font pb-0 mb-0">Open faced steak sandwich with grilled belle peppers and
+                  fried
+                  onions.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$15.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Tenderloin Sliders</h5>
+                <p class="card-text light-font pb-0 mb-0">Three beef tenderloin sliders with horseradish cream and
+                  blackberry bbq.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$13.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Classic Chicken Panini</h5>
+                <p class="card-text light-font pb-0 mb-0">Grilled chicken with Monterey jack, romaine lettuce, tomato,
+                  and cilantro.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$10.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Smoked Turkey Club</h5>
+                <p class="card-text light-font pb-0 mb-0">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and
+                  tomatoes.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$8.99</h5>
+              </div>
+            </div>
+            <hr class="m-0">
+            <div class="container d-flex justify-content-between">
+              <div>
+                <h5 class="light-font mb-0">Tuna Sandwich</h5>
+                <p class="card-text light-font pb-0 mb-0">Tuna salad with sprouts, sliced tomatoes and cilantro lime
+                  mayo on toast.</p>
+              </div>
+              <div>
+                <h5 class="light-font">$6.99</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END Sandwiches card -->
+      </div>
+      <div class="row mt-3">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card tablet-card" style="width: 18rem;">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menuseafood.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card tablet-card" style="width: 18rem;">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menumeat.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card tablet-card" style="width: 18rem;">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menudesserts.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END tablet menu cards -->
+
+    <!-- BEGIN footer -->
+    <!-- <div class="container-fluid brown-txt-color light-font"> -->
+    <div class="row flex-nowrap mt-5">
+      <div class="col-6 d-flex flex-column">
+        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="col-6 d-flex flex-column justify-content-end">
+        <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="company logo"
+          class="mt-4 footer-logo">
+        <p>Copyright &copy; Muzzles Restaurant</p>
+      </div>
+    </div>
+    <!-- / </div> -->
+    <!-- <footer>
+      <div class="container footer-items brown-txt-color regular-font">
+        <div class="row pt-5">
+          <div class="col-6 d-flex flex-column justify-content-start footer-left">
+            <p class="mb-0">1357 Mutt Street, Rottweiler CA. 12345</p>
+            <p class="m-0">Phone: 123-456-7890</p>
+          </div>
+          <div class="col-6 d-flex flex-column justify-content-end footer-right">
+            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="company logo"
+              class="footer-logo">
+            <p class="m-0">Copyright &copy; Muzzles Restaurant</p>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+    <!-- END footer -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
