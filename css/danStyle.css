@@ -1,0 +1,209 @@
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/*-------HOME LARGE--------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+.homeBackground{
+    background-image: url(/assets/PuppyAssets/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+.homeHeroImage{
+    background-image: url(/assets/PuppyAssets/RestaurantMockupFiles/assets/homeHero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.homeSingleImage{
+    background-image: url(/assets/PuppyAssets/RestaurantMockupFiles/assets/homeSingle.jpg);
+    background-position:center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    position: relative;
+}
+
+.homeTextBox{
+    background-color: white;
+    margin-left: 20px;
+}
+.homeImage{
+    background-image: url(/assets/PuppyAssets/RestaurantMockupFiles/assets/HomeImage.jpg);
+     height: 190px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 100px;
+}
+
+.homeMainContent{
+    height: 449.5px;
+    margin: 100px;
+    
+}
+.homeParagraphText{
+    text-align: center;
+}
+/*--------------------------------------------------------------------*/
+/*-------HOME SMALL---------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+.homeSingleImageSmall{
+    scale: 0.8;
+}
+.homeTextBoxSmall{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: x-small;
+}
+.homeImageSmall{
+     padding: 15px;
+     background-repeat: no-repeat;
+     height: 100%;
+     margin-bottom: 40px;
+}
+/*---------------------------------------------------------------------------------------------*/
+/*-------HOME MEDIUM---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+.homeTextBoxMedium{
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    left: 80px;
+    position: relative;
+}
+.homeImageMedium{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.homeSingleImageMedium{
+    background-image: url(../assets/PuppyAssets/RestaurantMockupFiles/assets/homeSingle.jpg);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    scale: 1.2;
+}
+/*---------------------------------------------------------------------------------------------*/
+/*-------PHOTOS PAGE---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+.marginSmall{
+    margin: 50px;
+}
+.photosMarginsMedium{
+   margin-top: 50px; 
+   margin-bottom: 50px;
+}
+.carousel{
+    background-color: white;
+    padding: 10px;
+}
+.photoImagesAll{
+    
+    background-color: white;
+    padding: 10px;
+    height: 398px;
+}
+.photoMargins{
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------*/
+/*-------MEDIA QUERIES------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1818px)
+{
+    .photoImagesAll{
+        scale: 0.87;
+    }
+}
+@media only screen and (max-width: 1650px)
+{
+    .photoImagesAll{
+        scale: 0.72;
+    }
+}
+@media only screen and (max-width: 1550px)
+{
+    .photoImagesAll{
+        scale: 0.67;
+    }
+}
+@media only screen and (max-width: 1450px)
+{
+   
+   .homeSingleImageMedium
+   {
+    scale: 1.4;
+   }
+}
+@media only screen and (max-width: 1350px)
+{
+   .homeSingleImageMedium
+   {
+    scale: 1.4;
+   }
+}
+@media only screen and (max-width: 1300px)
+{
+   .homeSingleImageMedium
+   {
+    scale: 1.35;
+   }
+}
+@media only screen and (max-width: 1200px)
+{
+   .homeSingleImageMedium
+   {
+    scale: 1.85;
+   }
+   .homeTextBoxMedium{
+    scale: 0.9;
+   
+   }
+}
+@media only screen and (max-width: 1150px)
+{
+
+    .homeHeroImage{
+            height: 350px;
+    }
+    
+   .homeSingleImageMedium
+   {
+    scale: 1.8;
+   }
+}
+@media only screen and (max-width: 450px)
+{
+    .homeHeroImage{
+        height: 250px;
+}
+    .marginSmall{
+        margin: 20px;
+    }
+    
+}
+
+
+
+
