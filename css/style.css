@@ -65,35 +65,45 @@ body {
     gap: 4rem;
     display: flex;
     font-size: 1.25rem;
-    padding-left: 7rem;
+    padding-left: 15.5rem;
 }
 
 .nav-logo {
     min-width: 250px;
     height: auto;
+    margin-right: 2rem;
 }
 
 .title-bar {
     background-color: white;
     font-size: 3.125rem;
     height: auto;
-    margin: 0rem 8.7rem;
+    margin-left: 5.5rem;
+    min-width: 68.5rem;
 }
 
 .title-bar-row {
-    width: 100%;
-    margin: 0;
+    /* width: 100%;
+    margin: 0; */
 }
 
 .footer-logo {
-    width: auto;
-    max-height: 1.975rem;
-    margin-left: 6rem;
+    width: 100px;
+    max-height: 2.5rem;
+    margin-right: 1.25rem;
 }
 
-.footer-items {
-    width: 80%;
+.footer-left {
+    margin-left: 3.25rem;
 }
+
+.footer-right {
+    margin-right: 1.8rem;
+}
+
+/* .footer-items {
+    min-width: 60rem;
+} */
 
 hr {
     background-color: #980051;
@@ -107,21 +117,16 @@ hr {
 
 /* BEGIN menu CSS */
 .menu-card {
-    max-width: 50rem;
+    /* max-width: 50rem; */
     height: auto;
     border: none;
     border-radius: 0px;
+    
 }
 
 .menu-card-container {
-    /* display: contents;
-    flex-direction: row;
-    justify-content: center;
-    min-width: 812px; */
-    /* gap: 2rem; */
-    padding: 0px;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 4rem;
+    min-width: 70rem;
 }
 
 .menu-img {
