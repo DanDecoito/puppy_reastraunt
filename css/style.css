@@ -196,12 +196,13 @@ hr {
     .mobile-nav {
         display: block;
     }
-}
-
-@media (max-width: 390px) {
     .laptop-screen {
         display: none!important;
     }
+}
+
+@media (min-width: 390px) {
+    
 }
 
 /* END media queries */
