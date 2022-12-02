@@ -22,7 +22,7 @@
           </a>
         </div>
       </div>
-      <div class="col-8 d-flex justify-content-center">
+      <div class="col-8 d-flex justify-content-end">
         <div class="nav-link-container text-center italic-font fugaz-font pt-5">
           <a href="../pages/about.html" class="nav-link">
             About
@@ -41,18 +41,30 @@
     </div>
   </div>
   <!-- END navbar -->
-  <div class="container d-flex justify-content-center flex-column m-0">
+  <!-- <div class="container">
+    <div class="row title-bar-row">
+      <div class="title-bar text-center brown-txt-color fugaz-font">
+        <h1 class="pt-2">Our menu</h1>
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class="container d-flex justify-content-center flex-column">
     <!-- START title bar -->
     <div class="row title-bar-row">
-      <div class="col title-bar text-center brown-txt-color fugaz-font">
-        <h1 class="pt-2">Our menu</h1>
+      <div class="col">
+        <div class="title-bar text-center brown-txt-color fugaz-font">
+          <h1 class="pt-2">Our menu</h1>
+        </div>
+
       </div>
     </div>
     <!-- END title bar -->
     <!-- BEGIN menu cards  -->
-    <div class="row row-cols-1 row-cols-md-2 g-4 menu-card-container pt-5 brown-txt-color ">
+    <div class="row row-cols-1 row-cols-md-2 g-4 pt-5 brown-txt-color ">
       <div class="col d-flex justify-content-center">
-        <div class="card menu-card">
+        <div class="card menu-card" width="100%">
           <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menubeef.jpg" class="card-img-top menu-img"
             alt="...">
           <div class="card-body">
@@ -562,33 +574,25 @@
 
     <!-- BEGIN footer -->
     <!-- <div class="container-fluid brown-txt-color light-font"> -->
-    <div class="row flex-nowrap mt-5">
-      <div class="col-6 d-flex flex-column">
-        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
-        <p>Phone: 123-456-7890</p>
+    <div class="row mt-5">
+      <div class="col-6 d-flex align-items-end brown-txt-color regular-font">
+        <p class="m-0">1357 Mutt Street, Rottweiler CA. 12345</p>        
       </div>
-      <div class="col-6 d-flex flex-column justify-content-end">
+      <div class="col-6 d-flex justify-content-end">
         <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="company logo"
-          class="mt-4 footer-logo">
-        <p>Copyright &copy; Muzzles Restaurant</p>
+        class="mt-4 footer-logo">
       </div>
     </div>
-    <!-- / </div> -->
-    <!-- <footer>
-      <div class="container footer-items brown-txt-color regular-font">
-        <div class="row pt-5">
-          <div class="col-6 d-flex flex-column justify-content-start footer-left">
-            <p class="mb-0">1357 Mutt Street, Rottweiler CA. 12345</p>
-            <p class="m-0">Phone: 123-456-7890</p>
-          </div>
-          <div class="col-6 d-flex flex-column justify-content-end footer-right">
-            <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="company logo"
-              class="footer-logo">
-            <p class="m-0">Copyright &copy; Muzzles Restaurant</p>
-          </div>
-        </div>
+    <div class="row mb-4 regular-font">
+      <div class="col-6 d-flex justify-content-start brown-txt-color">
+        
+        <p>Phone: 123-456-7890</p>
       </div>
-    </footer> -->
+      <div class="col-6 d-flex justify-content-end brown-txt-color">
+        
+        <p class="text-end">Copyright &copy; Muzzles Restaurant</p>
+      </div>
+    </div>
     <!-- END footer -->
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
