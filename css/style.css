@@ -4,14 +4,17 @@
     font-family: Montauk-Bold;
     src: url(../assets/PuppyAssets/Montauk-Bold.otf);
 }
+
 @font-face {
     font-family: Montauk-Italic;
     src: url(../assets/PuppyAssets/Montauk-Italic.otf);
 }
+
 @font-face {
     font-family: Montauk-Light;
     src: url(../assets/PuppyAssets/Montauk-Light.otf);
 }
+
 @font-face {
     font-family: Montauk-Regular;
     src: url(../assets/PuppyAssets/Montauk-Regular.otf);
@@ -19,9 +22,6 @@
 
 /* BEGIN global selectors */
 body {
-    /* width: auto;
-    margin: 0;
-    padding: 0; */
     background-image: url(../assets/PuppyAssets/RestaurantMockupFiles/assets/bgtexture.jpg);
     background-repeat: repeat;
     background-size: cover;
@@ -82,13 +82,39 @@ body {
     background-color: white;
     font-size: 3.125rem;
     height: auto;
-    
 }
 
-/* .title-bar-row {
-    width: 100%;
-    margin: 0;
-} */
+.tablet-title-bar {
+    background-color: white;
+    height: 3.5rem;
+    font-size: 2rem;
+    max-width: 32.4rem;
+}
+
+.carousel-btn-left {
+    background-color: #5F002B;
+    height: 6rem;
+    width: 3rem;
+    opacity: .7;
+    margin-top: 11rem;
+    margin-left: 3.5rem;
+    border-radius: 5rem;
+}
+
+.carousel-btn-right {
+    background-color: #5F002B;
+    height: 6rem;
+    width: 3rem;
+    opacity: .7;
+    margin-top: 11rem;
+    margin-right: 3.5rem;
+    border-radius: 5rem;
+}
+
+.tablet-logo-img {
+    max-width: 10rem;
+    height: auto;
+}
 
 .footer-logo {
     width: 100px;
@@ -97,20 +123,8 @@ body {
 
 .tablet-footer-logo {
     width: 100px;
-    max-height: auto; 
+    max-height: auto;
 }
-
-/* .footer-left {
-    margin-left: 3.25rem;
-}
-
-.footer-right {
-    margin-right: 1.8rem;
-} */
-
-/* .footer-items {
-    min-width: 60rem;
-} */
 
 hr {
     background-color: #980051;
@@ -125,17 +139,13 @@ hr {
 
 /* BEGIN menu CSS */
 .menu-card {
-    /* max-width: 50rem; */
     height: auto;
     border: none;
     border-radius: 0px;
-    /* width: 70%; */
 }
 
 .menu-card-container {
     margin-left: 4rem;
-    /* min-width: 70rem; */
-    /* scale: .9; */
 }
 
 .menu-img {
@@ -152,57 +162,43 @@ hr {
 
 .title-mobile {
     background-color: white;
-    width: 93%;
+    width: 100%;
 }
 
-/* .card-text {
-    margin-left: .7rem;
-} */
 /* END menu CSS */
 
 /* BEGIN media queries */
-@media (max-width: 1024px) {
-
-    
-    /* .nav-container {
-        max-width: 15rem;
-    }
-
-    .nav-link-container {
-        font-size: medium;
-        gap: 2rem;
-        margin-left: 9rem;
-    }
-
-    .footer-items {
-        width: 74%;
-    } */
-}
 
 @media (max-width: 768px) {
     .menu-card-container {
         display: none;
     }
+
     .nav-container {
         display: none;
     }
 }
 
 @media (max-width: 390px) {
-    .tablet-screen, .navbar, .carousel, .tablet-footer {
+
+    .tablet-screen,
+    .navbar,
+    .carousel,
+    .tablet-footer {
         display: none;
     }
 
     .mobile-nav {
         display: block;
     }
-    .laptop-screen {
-        display: none!important;
-    }
-}
 
-@media (min-width: 390px) {
-    
+    .laptop-screen {
+        display: none !important;
+    }
+
+    .tablet-title-bar {
+        display: none;
+    }
 }
 
 /* END media queries */
