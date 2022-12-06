@@ -93,22 +93,22 @@ body {
 
 .carousel-btn-left {
     background-color: #5F002B;
-    height: 6rem;
+    height: 3rem;
     width: 3rem;
     opacity: .7;
     margin-top: 11rem;
     margin-left: 3.5rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
 }
 
 .carousel-btn-right {
     background-color: #5F002B;
-    height: 6rem;
+    height: 3rem;
     width: 3rem;
     opacity: .7;
     margin-top: 11rem;
     margin-right: 3.5rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
 }
 
 .tablet-logo-img {
