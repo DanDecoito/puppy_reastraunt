@@ -93,22 +93,22 @@ body {
 
 .carousel-btn-left {
     background-color: #5F002B;
-    height: 6rem;
+    height: 3rem;
     width: 3rem;
     opacity: .7;
     margin-top: 11rem;
     margin-left: 3.5rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
 }
 
 .carousel-btn-right {
     background-color: #5F002B;
-    height: 6rem;
+    height: 3rem;
     width: 3rem;
     opacity: .7;
     margin-top: 11rem;
     margin-right: 3.5rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
 }
 
 .tablet-logo-img {
@@ -133,6 +133,11 @@ hr {
     width: 95%;
 }
 
+.tab-phone-nav-links {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
 /* END global selectors */
 
 /* BEGIN Pedro's CSS */
@@ -142,6 +147,10 @@ hr {
     height: auto;
     border: none;
     border-radius: 0px;
+}
+
+.menu-price {
+    text-align: left;
 }
 
 .menu-card-container {
@@ -160,10 +169,18 @@ hr {
     width: 70%;
 }
 
+.tablet-navbar {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.025);
+}
+
 .title-mobile {
     background-color: white;
     width: 100%;
 }
+
+
 
 /* END menu CSS */
 
@@ -219,4 +236,18 @@ hr {
     margin-top: 4rem;
     max-width: 27rem;
     height: auto;
+}
+
+/* TEST catering tablet CSS */
+.tablet-bg-card-img {
+    /* background-image: url(../assets/PuppyAssets/RestaurantMockupFiles/assets/cateringMaine.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    max-width: 30.5rem;
+    height: auto;
+    object-position: 0px -8rem;
+}
+
+.catering-card {
+    border-radius: 0px;
 }
