@@ -204,3 +204,19 @@ hr {
 /* END media queries */
 
 /* END Pedro's CSS */
+
+/* TEST catering laptop CSS */
+.cater-laptop-header-img {
+    max-width: 33rem;
+    min-height: auto;
+}
+
+.cater-paragraph-spacing {
+    line-height: 1rem;
+}
+
+.catering-bottom-imgs {
+    margin-top: 4rem;
+    max-width: 27rem;
+    height: auto;
+}
