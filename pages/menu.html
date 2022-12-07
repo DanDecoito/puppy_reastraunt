@@ -1,3 +1,11 @@
+<!-- 
+     Pedro Castaneda
+     12-02-2022
+     Puppy Restaurant
+     Create a restaurant website for puppies base on a design made with adobe xd.
+ -->
+
+<!-- TODO align prices in all screens, try using span tags -->
 <!doctype html>
 <html lang="en">
 
@@ -59,7 +67,7 @@
       <div class="col d-flex justify-content-center">
         <div class="card menu-card" width="100%">
           <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menubeef.jpg" class="card-img-top menu-img"
-            alt="...">
+            alt="beef sandwich">
           <div class="card-body">
             <h2 class="card-title fugaz-font mb-0">Sandwiches</h2>
             <p class="card-title regular-font pb-4">
@@ -131,7 +139,7 @@
       <div class="col d-flex justify-content-center">
         <div class="card menu-card">
           <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menuseafood.jpg" class="card-img-top menu-img"
-            alt="...">
+            alt="shrimp skewers">
           <div class="card-body">
             <h2 class="card-title fugaz-font mb-0">Seafood</h2>
             <p class="card-title regular-font pb-4">
@@ -187,7 +195,7 @@
       <div class="col d-flex justify-content-center">
         <div class="card menu-card">
           <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menumeat.jpg" class="card-img-top menu-img"
-            alt="...">
+            alt="ribs on the grill">
           <div class="card-body">
             <h2 class="card-title fugaz-font mb-0">On the grill</h2>
             <p class="card-title regular-font pb-4">
@@ -258,7 +266,7 @@
       <div class="col d-flex justify-content-around">
         <div class="card menu-card">
           <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menudesserts.jpg" class="card-img-top menu-img"
-            alt="...">
+            alt="chocolate fudge with ice cream">
           <div class="card-body">
             <h2 class="card-title fugaz-font mb-0">Desserts</h2>
             <p class="card-title regular-font pb-4">
@@ -353,26 +361,43 @@
   <!-- BEGIN tablet screen -->
   <div class="container-fluid tablet-screen d-lg-none d-md-block d-flex justify-content-center">
     <!-- BEGIN tablet navbar -->
-    <nav class="navbar navbar-expand-lg d-md-block d-lg-none fugaz-font">
-      <div class="container-fluid mt-4">
-        <a class="navbar-brand" href="../index.html">
-          <img class="tablet-logo-img" src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="muzzles logo">
+    <nav class="navbar tablet-navbar regular-font brown-txt-color d-md-block d-lg-none">
+      <div class="container-fluid">
+        <a href="../index.html">
+          <img class="tablet-logo-img" src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png"
+            alt="muzzles logo">
         </a>
-        <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
-          aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button style="border-color: #5F002B;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown d-flex justify-content-center">
-              <ul class="dropdown-menu navBgColor d-sm-flex d-flex justify-content-center" style="width: 72%;">
-                <li><a class="dropdown-item brown-txt-color" href="./about.html">About</a></li>
-                <li><a class="dropdown-item brown-txt-color" href="./menu.html">Menu</a></li>
-                <li><a class="dropdown-item brown-txt-color" href="./catering.html">Catering</a></li>
-                <li><a class="dropdown-item brown-txt-color" href="./photos.html">Photos</a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <div class="container">
+              <a href="../index.html">
+                <img class="tablet-logo-img" src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png"
+                  alt="muzzles logo">
+              </a>
+            </div>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="active fugaz-font brown-txt-color tab-phone-nav-links" aria-current="page" href="../pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="fugaz-font brown-txt-color tab-phone-nav-links" href="../pages/menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="fugaz-font brown-txt-color tab-phone-nav-links" href="../pages/catering.html">Catering</a>
+              </li>
+              <li class="nav-item">
+                <a class="fugaz-font brown-txt-color tab-phone-nav-links" href="../pages/photos.html">Photos</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -385,12 +410,12 @@
     </div>
     <!-- END tablet title bar -->
     <!-- BEGIN tablet menu cards -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade mt-3" data-bs-ride="carousel">
+    <div id="carouselExampleFade" class="carousel carousel-fade mt-3" data-bs-ride="carousel">
       <div class="carousel-inner brown-txt-color">
         <div class="carousel-item active d-flex justify-content-center">
           <div class="card tablet-card">
             <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menubeef.jpg" class="card-img-top menu-img"
-              alt="...">
+              alt="beef sandwich">
             <div class="card-body">
               <h2 class="card-title fugaz-font mb-0">Sandwiches</h2>
               <p class="card-title regular-font pb-4">
@@ -462,7 +487,7 @@
         <div class="carousel-item d-flex justify-content-center">
           <div class="card tablet-card" style="height: 42rem;">
             <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menuseafood.jpg" class="card-img-top menu-img"
-              alt="...">
+              alt="shrimp skewers">
             <div class="card-body">
               <h2 class="card-title fugaz-font mb-0">Seafood</h2>
               <p class="card-title regular-font pb-4">
@@ -518,7 +543,7 @@
         <div class="carousel-item d-flex justify-content-center">
           <div class="card tablet-card" style="height: 42rem;">
             <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menumeat.jpg" class="card-img-top menu-img"
-              alt="...">
+              alt="ribs on the grill">
             <div class="card-body">
               <h2 class="card-title fugaz-font mb-0">On the grill</h2>
               <p class="card-title regular-font pb-4">
@@ -589,7 +614,7 @@
         <div class="carousel-item d-flex justify-content-center">
           <div class="card tablet-card" style="height: 42rem;">
             <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/menudesserts.jpg" class="card-img-top menu-img"
-              alt="...">
+              alt="chocolate fudge with ice cream">
             <div class="card-body">
               <h2 class="card-title fugaz-font mb-0">Desserts</h2>
               <p class="card-title regular-font pb-4">
@@ -702,7 +727,7 @@
     <nav class="navbar mobile-nav navbar-expand-lg d-md-none d-sm-block d-lg-none fugaz-font mb-1">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
-          <img class="logo-img" src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="">
+          <img class="logo-img" src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="muzzles logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
           aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
