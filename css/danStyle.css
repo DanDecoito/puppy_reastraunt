@@ -1,19 +1,19 @@
-
+ 
 /*---------------------------------------------------------------------------------------------*/
 /*-------HOME LARGE----------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 @font-face {
     font-family: FugazOne-Regular;
     src: url(../assets/PuppyAssets/FugazOne-Regular.ttf);
-}
-@font-face {
+  }
+  @font-face {
     font-family: Montauk-Regular;
     src: url(../assets/PuppyAssets/Montauk-Regular.otf);
-}
-h1{
+  }
+  h1{
     font-family: FugazOne-Regular;
-}
-.homeHeroImage{
+  }
+  .homeHeroImage{
     background-image: url(/assets/PuppyAssets/RestaurantMockupFiles/assets/homeHero.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -21,15 +21,15 @@ h1{
     position: relative;
     height: 400px;
     width: 100%;
-}
-.homeSingleImageLarge{
+  }
+  .homeSingleImageLarge{
     background-image: url(/assets/PuppyAssets/RestaurantMockupFiles/assets/homeSingle.jpg);
     background-repeat:no-repeat ;
     background-size: contain;
     position: relative;
     height: 400px;
-}
-.homeTextBoxLarge{
+  }
+  .homeTextBoxLarge{
     background-color: white;
     margin-left: 20px;
     padding-bottom: 37px;
@@ -41,33 +41,33 @@ h1{
     font-size: 14px;
     line-height: normal;
     
-}
-.homeMainContentLarge{
+  }
+  .homeMainContentLarge{
     margin-top: 100px;
     
     margin-left: 60px;
     margin-right: 80px;
-}
-.homeImageLarge{
+  }
+  .homeImageLarge{
     margin-left: 20px;
     height: 155px;
     width: 736px;
-}
-/*---------------------------------------------------------------------------------------------*/
-/*-------HOME MEDIUM---------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------------------*/
-.homeSingleImageMedium{
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  /*-------HOME MEDIUM---------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  .homeSingleImageMedium{
     background-image: url(../assets/PuppyAssets/RestaurantMockupFiles/assets/homeSingle.jpg);
     background-repeat:no-repeat ;
     background-size: cover;
     background-position: center;
     height: 272.44px;
-}
-.homeMainContentMedium{
+  }
+  .homeMainContentMedium{
     margin-top: 50px;
     font-family: Montauk-Regular;
-}
-.homeTextBoxMedium{
+  }
+  .homeTextBoxMedium{
     background-color: white;
     font-size: 16px;
     text-align: justify;
@@ -78,17 +78,17 @@ h1{
     padding-bottom: 54.4px;
     margin-bottom: 40px;
     line-height: normal;
-}
-.h1Medium{
+  }
+  .h1Medium{
     font-size: 25px;
-}
-.homeImageMedium{
+  }
+  .homeImageMedium{
     padding: 0px;
-}
-/*--------------------------------------------------------------------*/
-/*-------HOME SMALL---------------------------------------------------*/
-/*--------------------------------------------------------------------*/
-.homeTextBoxSmall{
+  }
+  /*--------------------------------------------------------------------*/
+  /*-------HOME SMALL---------------------------------------------------*/
+  /*--------------------------------------------------------------------*/
+  .homeTextBoxSmall{
     background-color: white;
     font-family: Montauk-Regular;
     line-height: normal;
@@ -100,47 +100,48 @@ h1{
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 20px;
-}
-.homeImageSmall{
-    height: 160px;
+  }
+  .homeImageSmall{
+    height: 100px;
     margin-top: 20px;
-}
-
-/*---------------------------------------------------------------------------------------------*/
-/*-------PHOTOS LARGE--------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------------------*/
-.photoImagesAll{
+  }
+  
+  /*---------------------------------------------------------------------------------------------*/
+  /*-------PHOTOS LARGE--------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  .photoImagesAll{
     background-color: white;
     width: 320px;
     padding: 10px;
-
-}
-.photoMargins{
+  
+  }
+  .photoMargins{
     margin-top: 10px;
-}
-/*---------------------------------------------------------------------------------------------*/
-/*-------PHOTOS MEDIUM--------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------------------*/
-.photoImagesAllMedium{
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  /*-------PHOTOS MEDIUM--------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  .photoImagesAllMedium{
     background-color: white;
     padding: 8px;
     width: 225px;
-}
-.photoMarginsMedium{
+  }
+  .photoMarginsMedium{
     margin-top: 10px;
-}
-/*---------------------------------------------------------------------------------------------*/
-/*-------PHOTOS SMALL--------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------------------*/
-.photoImagesAllSmall{
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  /*-------PHOTOS SMALL--------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  .photoImagesAllSmall{
     background-color: white;
     padding: 5px;
     width: 170px;
-}
-.photoMarginisSMall{
+  }
+  .photoMarginisSMall{
     margin-right: 10px;
     margin-top: 6px;
-}
-
-
-
+  }
+  
+  
+  
+  
