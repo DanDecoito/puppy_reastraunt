@@ -1,0 +1,147 @@
+.bg-img {
+    background-image: url("../assets/PuppyAssets/RestaurantMockupFiles/assets/bgtexture.jpg");
+}
+
+.about-header {
+    /* gap: 1em; */
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-header-img {
+    background-image: url("../assets/PuppyAssets/RestaurantMockupFiles/assets/AboutMain.jpg");
+    background-size: cover;
+    height: auto;
+    width: 33.33%;
+}
+
+.about-header-bg {
+    background-color: white;
+    width: 65%;
+    padding: 16px;
+}
+
+.about-header-text {
+
+}
+
+.about-header-paragraph {
+    font-size: 13px;
+}
+
+.container {
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-team {
+    padding: 12px;
+}
+
+.our-team-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.our-team-row {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team-card {
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 10px;
+    width: 33%;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+
+@media (max-width: 768px) {
+    .about-header {
+        display: block;
+    }
+
+    .about-header-img {
+        width: 100%;
+        height: 40rem;
+        
+    }
+
+    .about-header-bg {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .about-header-img {
+        min-height: 15rem;
+        width: 100vw;
+        height: auto;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 5px;
+    }
+
+    .our-team-card {
+        width: 100%;
+    }
+
+}
+
+
+.catering-header-img {
+    width: 100%;
+    height: auto;
+}
+
+.catering-main {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+    
+}
+
+.catering-main-img {
+    width: 33vw;
+    
+    padding: 0;
+}
+
+.catering-main-bg {
+    background-color: white;
+    width: 57vw;
+    height: fit-content;
+    padding: 16px;
+}
+
+.catering-main-paragraph {
+    font-size: x-small;
+}
+
+.catering-images {
+    display: flex;
+    gap: 1em;
+}
+
+.catering-img {
+    width: 32%;
+    padding: 0;
+}
