@@ -45,9 +45,13 @@
 .our-team-banner {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     background-color: white;
     
+}
+
+.our-team-text {
+    margin: 0;
 }
 
 .our-team-row {
@@ -130,6 +134,8 @@
     width: 57vw;
     height: fit-content;
     padding: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .catering-main-paragraph {
@@ -138,7 +144,8 @@
 
 .catering-images {
     display: flex;
-    gap: 1em;
+    margin: 0;
+    justify-content: space-between;
 }
 
 .catering-img {
