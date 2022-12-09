@@ -26,6 +26,8 @@ body {
     background-repeat: repeat;
     background-size: cover;
     background-attachment: scroll;
+    
+
 }
 
 .brown-txt-color {
@@ -172,6 +174,284 @@ hr {
 
 /* END menu CSS */
 
+
+/* Drews Styling */
+
+.bg-img {
+    background-image: url("../assets/PuppyAssets/RestaurantMockupFiles/assets/bgtexture.jpg");
+}
+
+.about-header {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-header-img {
+    background-image: url("../assets/PuppyAssets/RestaurantMockupFiles/assets/AboutMain.jpg");
+    background-size: cover;
+    height: auto;
+    width: 33.33%;
+}
+
+.about-header-bg {
+    background-color: white;
+    width: 65%;
+    padding: 16px;
+}
+
+.about-header-text {
+    font-family: Montauk-Bold;
+}
+
+.about-header-paragraph {
+    font-size: 13px;
+    font-family: Montauk-Regular;
+}
+
+.drew-container {
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-team {
+    padding: 12px;
+}
+
+.our-team-banner {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+}
+
+.our-team-text {
+    margin: 0;
+    font-family: Montauk-Bold;
+}
+
+.our-team-row {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team-card {
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 10px;
+    width: 33%;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.our-team-card-title {
+    font-family: Montauk-Bold;
+}
+
+.our-team-card-title {
+    font-family: Montauk-Regular;
+}
+
+.catering-header-img {
+    width: 100%;
+    height: auto;
+}
+
+.catering-main {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+    
+}
+
+.catering-main-img {
+    width: 33vw;
+    padding: 0;
+}
+
+.catering-main-bg {
+    background-color: white;
+    width: 57vw;
+    height: fit-content;
+    padding: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.catering-main-paragraph {
+    font-size: x-small;
+}
+
+.catering-images {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.catering-img {
+    width: 32%;
+    padding: 0;
+}
+
+
+
+
+
+
+/* Dan Style */
+.homeHeroImage{
+    background-image: url(/assets/PuppyAssets/RestaurantMockupFiles/assets/homeHero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    width: 100%;
+  }
+  .homeSingleImageLarge{
+    background-image: url(/assets/PuppyAssets/RestaurantMockupFiles/assets/homeSingle.jpg);
+    background-repeat:no-repeat ;
+    background-size: contain;
+    position: relative;
+    height: 400px;
+  }
+  .homeTextBoxLarge{
+    background-color: white;
+    margin-left: 20px;
+    padding-bottom: 37px;
+    padding-top: 33.5px;
+    padding-left: 40px;
+    padding-right: 80px;
+    text-align: justify;
+    font-family: Montauk-Regular;
+    font-size: 14px;
+    line-height: normal;
+      margin-right: 31.5px;
+  
+    
+  }
+  .homeMainContentLarge{
+    margin-top: 100px;
+    
+    margin-left: 60px;
+    margin-right: 8px;
+  }
+  .homeImageLarge{
+    margin-left: 20px;
+    height: 155px;
+    width: 736px;
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  /*-------HOME MEDIUM---------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  .homeSingleImageMedium{
+    background-image: url(../assets/PuppyAssets/RestaurantMockupFiles/assets/homeSingle.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 272.44px;
+  }
+  .homeMainContentMedium{
+    margin-top: 50px;
+    font-family: Montauk-Regular;
+  }
+  .homeTextBoxMedium{
+    background-color: white;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 54.4px;
+    margin-bottom: 40px;
+    line-height: normal;
+  }
+  .h1Medium{
+    font-size: 25px;
+  }
+  .homeImageMedium{
+    padding: 0px;
+  }
+  /*--------------------------------------------------------------------*/
+  /*-------HOME SMALL---------------------------------------------------*/
+  /*--------------------------------------------------------------------*/
+  .homeTextBoxSmall{
+    background-color: white;
+    font-family: Montauk-Regular;
+    line-height: normal;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .homeImageSmall{
+    height: 120px;
+    margin-top: 20px;
+  }
+  
+  /*---------------------------------------------------------------------------------------------*/
+  /*-------PHOTOS LARGE--------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  .photoImagesAll{
+    background-color: white;
+    width: 320px;
+    padding: 10px;
+  
+  }
+  .photoMargins{
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  /*-------PHOTOS MEDIUM--------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  .photoImagesAllMedium{
+    background-color: white;
+    padding: 8px;
+    width: 217px;
+  }
+  .photoMarginsMedium{
+    margin-top: 10px;
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  /*-------PHOTOS SMALL--------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  .photoImagesAllSmall{
+    background-color: white;
+    padding: 5px;
+    width: 170px;
+  }
+  .photoMarginisSMall{
+    margin-top: 6px;
+  }
+  h1{
+    font-family: FugazOne-Regular;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* BEGIN media queries */
 
 @media (max-width: 768px) {
@@ -182,6 +462,29 @@ hr {
     .nav-container {
         display: none;
     }
+      .about-header {
+        display: block;
+    }
+
+    .about-header-img {
+        width: 100%;
+        height: 40rem;
+        
+    }
+
+    .about-header-bg {
+        width: 100%;
+    }
+
+    .catering-main-img {
+        display: none;
+    }
+
+    .catering-main-bg {
+        display: block;
+        width: 100vw;
+    }
+
 }
 
 @media (max-width: 390px) {
@@ -203,6 +506,19 @@ hr {
 
     .tablet-title-bar {
         display: none;
+    }
+     .drew-container {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .about-header-img {
+        min-height: 15rem;
+        width: 100vw;
+        height: auto;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 5px;
     }
 }
 
