@@ -490,7 +490,7 @@ hr {
 @media (max-width: 500px) {
 
     .tablet-screen,
-    .navbar,
+    /* .navbar, */
     .carousel,
     .tablet-footer {
         display: none;
