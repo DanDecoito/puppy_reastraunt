@@ -1,35 +1,212 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
+
+<body class="bg-img">
+  <div class="container drew-container">
+
+
+    <div class="container nav-container">
+      <div class="row my-3 brown-txt-color">
+        <div class="col-4">
+          <div class="nav-logo-container">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="muzzles logo"
+                class="nav-logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="nav-link-container text-center fugaz-font">
+            <a href="../pages/about.html" class="nav-link">
+              About
+            </a>
+            <a href="../pages/menu.html" class="nav-link">
+              Menu
+            </a>
+            <a href="../pages/catering.html" class="nav-link">
+              Catering
+            </a>
+            <a href="../pages/photos.html" class="nav-link">
+              Photos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <nav class="navbar tablet-navbar regular-font brown-txt-color d-md-block d-lg-none">
+      <div class="container-fluid">
+        <a href="../index.html">
+          <img class="tablet-logo-img" src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png"
+            alt="muzzles logo">
+        </a>
+        <button style="border-color: #5F002B;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <div class="container">
+              <a href="../index.html">
+                <img class="tablet-logo-img" src="../assets/PuppyAssets/RestaurantMockupFiles/assets/MuzzlesLogo.png"
+                  alt="muzzles logo">
+              </a>
+            </div>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="active fugaz-font brown-txt-color tab-phone-nav-links" aria-current="page" href="../pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="fugaz-font brown-txt-color tab-phone-nav-links" href="../pages/menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="fugaz-font brown-txt-color tab-phone-nav-links" href="../pages/catering.html">Catering</a>
+              </li>
+              <li class="nav-item">
+                <a class="fugaz-font brown-txt-color tab-phone-nav-links" href="../pages/photos.html">Photos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="row about-header brown-txt-color">
+      <div class="about-header-img"></div>
+      <div class="about-header-bg">
+        <h1 class="about-header-text">The Story Behind the Grill</h1>
+          <p class="about-header-paragraph">Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mattis
+            molestie a iaculis at erat pellentesque adipiscing commodo. Quisque non tellus orci ac auctor augue. Tincidunt
+            augue interdum velit euismod in pellentesque massa. Vel pharetra vel turpis nunc. Risus pretium quam vulputate
+            dignissim suspendisse in est. Viverra nibh cras pulvinar mattis nunc sed blandit libero. Aenean pharetra magna
+            ac placerat. Etiam sit amet nisl purus. Sollicitudin tempor id eu nisl nunc mi ipsum. Non tellus orci ac
+            auctor augue. Suspendisse sed nisi lacus sed viverra tellus in hac. Egestas tellus rutrum tellus pellentesque eu
+            tincidunt tortor. Dignissim sodales ut eu sem integer vitae. Facilisis magna etiam tempor orci eu. Pharetra
+            pharetra massa massa ultricies mi quis. Mattis rhoncus urna neque viverra justo nec. Egestas purus viverra
+            accumsan in nisl nisi scelerisque.</p>
+          <p class="about-header-paragraph">Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed
+            libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet.
+            Ultricies tristique nulla aliquet enim tortor at auctor urna. Purus faucibus ornare suspendisse sed. Tempor
+            nec feugiat nisl pretium fusce id velit ut tortor. Sed cras ornare arcu dui vivamus arcu felis. Consectetur lorem
+            donec massa sapien faucibus et molestie ac. Cum sociis natoque penatibus et magnis dis parturient. Ut faucibus
+            pulvinar elementum integer enim. Vel risus commodo viverra maecenas accumsan. Nec dui nunc mattis enim ut.</p>
+          <p class="about-header-paragraph">Posuere lorem ipsum dolor sit amet. Sed odio morbi quis commodo odio aenean.
+            Tortor posuere ac ut consequat semper viverra nam libero. Tellus elementum sagittis vitae et leo duis ut.
+            Egestas quis ipsum suspendisse ultrices gravida. Tempor commodo ullamcorper a lacus vestibulum sed arcu non
+            odio. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Augue neque gravida in fermentum
+            et sollicitudin ac orci phasellus. Tristique senectus et netus et. Dolor sit amet consectetur adipiscing elit ut
+            aliquam. Erat nam at lectus urna duis convallis convallis tellus. Egestas purus viverra accumsan in nisl nisi
+            scelerisque eu ultrices.</p>
+      </div>
+    </div>
+
+
+    <div class="row our-team brown-txt-color">
+      <div class="our-team-banner">
+          <h2 class="our-team-text">Our Team</h2>
+      </div>
+    </div>
+
+
+    <div class="row our-team-row brown-txt-color">
+        <div class="card our-team-card">
+          <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/doxie3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title our-team-card-title">George</h5>
+            <p class="card-text our-team-card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+          </div>
+        </div>
+        <div class="card our-team-card">
+          <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/jackrussel.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Butterscotch</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+          </div>
+        </div>
+        <div class="card our-team-card">
+          <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/doxie1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Louie</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+          </div>
+        </div>
+      <div class="card our-team-card">
+        <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/novascotia.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Willow</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+        </div>
+      </div>
+      <div class="card our-team-card">
+        <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/doxie2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Skittles</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+        </div>
+      </div>
+      <div class="card our-team-card">
+        <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/staffie.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mario</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="row mt-5">
+    <div class="col-6 d-flex align-items-end brown-txt-color regular-font">
+      <p class="m-0">1357 Mutt Street, Rottweiler CA. 12345</p>
+    </div>
+    <div class="col-6 d-flex justify-content-end">
+      <img src="../assets/PuppyAssets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="company logo"
+        class="mt-4 footer-logo">
+    </div>
+  </div>
+  <div class="row mb-4 regular-font">
+    <div class="col-6 d-flex justify-content-start brown-txt-color">
+      <p>Phone: 123-456-7890</p>
+    </div>
+    <div class="col-6 d-flex justify-content-end brown-txt-color">
+      <p class="text-end">Copyright &copy; Muzzles Restaurant</p>
+    </div>
+  </div>
   
-  
-  <body>
-    <h1>Hello, world!</h1>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
