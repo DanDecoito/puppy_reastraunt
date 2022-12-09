@@ -1,3 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fugaz+One&family=Poor+Story&family=Source+Sans+Pro&family=Space+Mono&display=swap');
+
+@font-face {
+    font-family: Montauk-Bold;
+    src: url(../assets/PuppyAssets/Montauk-Bold.otf);
+}
+
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(../assets/PuppyAssets/Montauk-Italic.otf);
+}
+
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../assets/PuppyAssets/Montauk-Light.otf);
+}
+
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../assets/PuppyAssets/Montauk-Regular.otf);
+}
+
+/* BEGIN global selectors */
+body {
+    background-image: url(../assets/PuppyAssets/RestaurantMockupFiles/assets/bgtexture.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.brown-txt-color {
+    color: #5F002B;
+}
+
+.bold-font {
+    font-family: Montauk-Bold;
+    font-weight: bold;
+}
+
+.italic-font {
+    font-family: Montauk-Italic;
+    font-style: italic;
+}
+
+.light-font {
+    font-family: Montauk-Light;
+    font-weight: lighter;
+}
+
+.regular-font {
+    font-family: Montauk-Regular;
+    font-style: normal;
+}
+
+.fugaz-font {
+    font-family: 'Fugaz One', cursive;
+}
+
+.nav-container {
+    width: 100%;
+    padding: 0;
+}
+
+.nav-link-container {
+    gap: 4rem;
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: end;
+    margin-right: 1rem;
+    padding-top: 1rem;
+}
+
+.nav-logo {
+    min-width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    margin-left: 2rem;
+}
+
+.title-bar {
+    background-color: white;
+    font-size: 3.125rem;
+    height: auto;
+}
+
+.tablet-title-bar {
+    background-color: white;
+    height: 3.5rem;
+    font-size: 2rem;
+    max-width: 32.4rem;
+}
+
+.carousel-btn-left {
+    background-color: #5F002B;
+    height: 3rem;
+    width: 3rem;
+    opacity: .7;
+    margin-top: 11rem;
+    margin-left: 3.5rem;
+    border-radius: 2rem;
+}
+
+
+.tablet-logo-img {
+    max-width: 10rem;
+    height: auto;
+}
+
+.footer-logo {
+    width: 100px;
+    max-height: auto;
+}
+
+.tablet-footer-logo {
+    width: 100px;
+    max-height: auto;
+}
+
+hr {
+    background-color: #980051;
+    border: none;
+    height: 1px;
+    width: 95%;
+}
+
+
+
 .bg-img {
     background-image: url("../assets/PuppyAssets/RestaurantMockupFiles/assets/bgtexture.jpg");
 }
@@ -70,45 +198,6 @@
     border-radius: 0;
 }
 
-
-@media (max-width: 768px) {
-    .about-header {
-        display: block;
-    }
-
-    .about-header-img {
-        width: 100%;
-        height: 40rem;
-        
-    }
-
-    .about-header-bg {
-        width: 100%;
-    }
-}
-
-@media (max-width: 425px) {
-    .container {
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-
-    .about-header-img {
-        min-height: 15rem;
-        width: 100vw;
-        height: auto;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin-bottom: 5px;
-    }
-
-    .our-team-card {
-        width: 100%;
-    }
-
-}
-
-
 .catering-header-img {
     width: 100%;
     height: auto;
@@ -124,7 +213,6 @@
 
 .catering-main-img {
     width: 33vw;
-    
     padding: 0;
 }
 
@@ -150,4 +238,51 @@
 .catering-img {
     width: 32%;
     padding: 0;
+}
+
+
+
+@media (max-width: 768px) {
+    .menu-card-container {
+        display: none;
+    }
+
+    .about-header {
+        display: block;
+    }
+
+    .about-header-img {
+        width: 100%;
+        height: 40rem;
+        
+    }
+
+    .about-header-bg {
+        width: 100%;
+    }
+
+    .catering-main-img {
+        display: none;
+    }
+
+    .catering-main-bg {
+        display: block;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .about-header-img {
+        min-height: 15rem;
+        width: 100vw;
+        height: auto;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 5px;
+    }
 }
