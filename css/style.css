@@ -278,10 +278,14 @@ hr {
         display: block;
         width: 100vw;
     }
+
+    .nav-container {
+        display: none;
+    }
 }
 
 @media (max-width: 425px) {
-    .container {
+    .drew-container {
         margin-left: 12px;
         margin-right: 12px;
     }
