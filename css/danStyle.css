@@ -33,20 +33,22 @@ h1{
   background-color: white;
   margin-left: 20px;
   padding-bottom: 37px;
-  padding-top: 13px;
+  padding-top: 33.5px;
   padding-left: 40px;
   padding-right: 80px;
   text-align: justify;
   font-family: Montauk-Regular;
   font-size: 14px;
   line-height: normal;
+    margin-right: 31.5px;
+
   
 }
 .homeMainContentLarge{
   margin-top: 100px;
   
   margin-left: 60px;
-  margin-right: 80px;
+  margin-right: 8px;
 }
 .homeImageLarge{
   margin-left: 20px;
@@ -124,7 +126,7 @@ h1{
 .photoImagesAllMedium{
   background-color: white;
   padding: 8px;
-  width: 225px;
+  width: 217px;
 }
 .photoMarginsMedium{
   margin-top: 10px;
