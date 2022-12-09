@@ -254,7 +254,7 @@ hr {
     font-family: Montauk-Bold;
 }
 
-.our-team-card-title {
+.our-team-card-paragraph {
     font-family: Montauk-Regular;
 }
 
@@ -487,7 +487,7 @@ hr {
 
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
 
     .tablet-screen,
     .navbar,
